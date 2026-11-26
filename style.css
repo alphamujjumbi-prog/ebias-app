@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #58a6ff;
+}
+
+.pair-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.bullish {
+  border-left: 5px solid #26a69a;
+}
+
+.bearish {
+  border-left: 5px solid #ef5350;
+}
+
+.neutral {
+  border-left: 5px solid #9e9e9e;
+}
+
+.wait {
+  color: #ffb74d;
+  font-weight: bold;
+}
+
+.buy {
+  color: #26a69a;
+  font-weight: bold;
+}
+
+.sell {
+  color: #ef5350;
+  font-weight: bold;
+}
+
+.news-yes {
+  color: #ef5350;
+  font-weight: bold;
+}
+
+.news-no {
+  color: #26a69a;
+  font-weight: bold;
+}
