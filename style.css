@@ -62,15 +62,6 @@ h1 {
 .pair-card h2 {
   margin: 0 0 10px 0;
   font-size: 1.25rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.price {
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: #8b949e;
 }
 
 .bullish {
@@ -127,10 +118,4 @@ h1 {
   font-size: 0.78rem;
   margin-top: 24px;
   line-height: 1.4;
-}
-
-.loading {
-  text-align: center;
-  color: #8b949e;
-  padding: 40px 0;
 }
