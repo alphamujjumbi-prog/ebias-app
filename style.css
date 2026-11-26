@@ -3,31 +3,29 @@ body {
   background: #0d1117;
   color: #e6edf3;
   padding: 16px;
-  margin: 0;
-  max-width: 480px;
   margin: 0 auto;
+  max-width: 480px;
 }
 
 h1 {
   text-align: center;
   color: #58a6ff;
   margin-bottom: 4px;
-  font-size: 1.6rem;
+  font-size: 1.55rem;
 }
 
 .subtitle {
   text-align: center;
   color: #8b949e;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 0.9rem;
+  margin: 0 0 18px;
+  font-size: 0.88rem;
 }
 
 .controls {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
   gap: 12px;
 }
 
@@ -42,10 +40,6 @@ h1 {
   cursor: pointer;
 }
 
-#refreshBtn:active {
-  background: #2ea043;
-}
-
 #lastUpdated {
   font-size: 0.8rem;
   color: #8b949e;
@@ -55,66 +49,77 @@ h1 {
   background: #161b22;
   border: 1px solid #30363d;
   border-radius: 12px;
-  padding: 16px;
+  padding: 14px 16px;
   margin-bottom: 14px;
 }
 
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .pair-card h2 {
-  margin: 0 0 10px 0;
-  font-size: 1.25rem;
+  margin: 0;
+  font-size: 1.2rem;
 }
 
-.bullish {
-  border-left: 5px solid #26a69a;
+.grade {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #21262d;
 }
 
-.bearish {
-  border-left: 5px solid #ef5350;
-}
+.grade-Ap { background: #238636; color: #fff; }
+.grade-A  { background: #1f6feb; color: #fff; }
+.grade-B  { background: #9e6a03; color: #fff; }
+.grade-C  { background: #30363d; color: #8b949e; }
 
-.neutral {
-  border-left: 5px solid #9e9e9e;
-}
+.bullish { border-left: 5px solid #26a69a; }
+.bearish { border-left: 5px solid #ef5350; }
+.neutral { border-left: 5px solid #9e9e9e; }
 
 .row {
   display: flex;
   justify-content: space-between;
-  margin: 6px 0;
-  font-size: 0.95rem;
+  margin: 5px 0;
+  font-size: 0.92rem;
 }
 
-.label {
-  color: #8b949e;
+.label { color: #8b949e; }
+
+.trend-bullish { color: #26a69a; font-weight: 600; }
+.trend-bearish { color: #ef5350; font-weight: 600; }
+.trend-neutral { color: #9e9e9e; }
+
+.wait { color: #ffb74d; font-weight: bold; }
+.buy  { color: #26a69a; font-weight: bold; }
+.sell { color: #ef5350; font-weight: bold; }
+
+.news-yes { color: #ef5350; font-weight: bold; }
+.news-no  { color: #26a69a; font-weight: bold; }
+
+.reasons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
-.wait {
-  color: #ffb74d;
-  font-weight: bold;
+.tag {
+  font-size: 0.72rem;
+  background: #21262d;
+  color: #c9d1d9;
+  padding: 3px 8px;
+  border-radius: 20px;
 }
 
-.buy {
-  color: #26a69a;
-  font-weight: bold;
-}
-
-.sell {
-  color: #ef5350;
-  font-weight: bold;
-}
-
-.news-yes {
-  color: #ef5350;
-  font-weight: bold;
-}
-
-.news-no {
-  color: #26a69a;
-  font-weight: bold;
-}
-
-.reason {
+.detail {
   margin-top: 8px;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: #8b949e;
   border-top: 1px solid #21262d;
   padding-top: 8px;
@@ -123,7 +128,7 @@ h1 {
 .footer {
   text-align: center;
   color: #6e7681;
-  font-size: 0.78rem;
-  margin-top: 24px;
-  line-height: 1.4;
+  font-size: 0.76rem;
+  margin-top: 22px;
+  line-height: 1.45;
 }
