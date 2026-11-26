@@ -112,6 +112,14 @@ h1 {
   font-weight: bold;
 }
 
+.reason {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #8b949e;
+  border-top: 1px solid #21262d;
+  padding-top: 8px;
+}
+
 .footer {
   text-align: center;
   color: #6e7681;
